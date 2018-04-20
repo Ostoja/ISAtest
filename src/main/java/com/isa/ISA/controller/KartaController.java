@@ -1,7 +1,5 @@
 package com.isa.ISA.controller;
 
-import static org.mockito.Matchers.longThat;
-
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.List;
@@ -22,7 +20,6 @@ import com.isa.ISA.model.Projekcija;
 import com.isa.ISA.model.Sala;
 import com.isa.ISA.model.SegmentUSali;
 import com.isa.ISA.model.DTO.KartaDTO;
-import com.isa.ISA.model.DTO.ProjekcijaDTO;
 import com.isa.ISA.repository.KartaRepository;
 import com.isa.ISA.repository.MestoRepository;
 import com.isa.ISA.repository.PozoristeBioskopRepository;

@@ -3,6 +3,7 @@ package com.isa.ISA.model;
 import javax.persistence.*;
 
 @Entity
+@Table(name = "jusr")
 public class User {
 
 	@Id

@@ -1,11 +1,8 @@
 package com.isa.ISA.controller;
 
-import static org.mockito.Mockito.RETURNS_DEEP_STUBS;
-
 import java.util.List;
 
 import javax.servlet.http.HttpServletRequest;
-import javax.websocket.server.PathParam;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -16,13 +13,10 @@ import org.springframework.web.bind.annotation.RestController;
 
 import com.isa.ISA.model.FilmPredstava;
 import com.isa.ISA.model.Projekcija;
-import com.isa.ISA.model.Sala;
 import com.isa.ISA.model.DTO.FilmPredstavaDTO;
-import com.isa.ISA.model.DTO.SalaDTO;
 import com.isa.ISA.repository.FilmPredstavaRepository;
 import com.isa.ISA.repository.ProjekcijaRepository;
 import com.isa.ISA.service.FilmPredstavaService;
-import com.sun.jersey.server.impl.model.method.dispatch.HttpReqResDispatchProvider;
 
 @RestController
 public class FilmPredstavaController {
