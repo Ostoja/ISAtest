@@ -11,12 +11,9 @@ import com.isa.ISA.model.Mesto;
 import com.isa.ISA.model.Projekcija;
 import com.isa.ISA.model.Sala;
 import com.isa.ISA.model.SegmentUSali;
-import com.isa.ISA.model.TipSedista;
-import com.isa.ISA.model.DTO.SalaDTO;
 import com.isa.ISA.model.DTO.SegmentUSaliDTO;
 import com.isa.ISA.repository.KartaRepository;
 import com.isa.ISA.repository.MestoRepository;
-import com.isa.ISA.repository.PozoristeBioskopRepository;
 import com.isa.ISA.repository.SalaRepository;
 import com.isa.ISA.repository.SegmentUSaliRepository;
 

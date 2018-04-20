@@ -12,7 +12,6 @@ import com.isa.ISA.model.Admin;
 import com.isa.ISA.model.Korisnik;
 import com.isa.ISA.model.TipKorisnika;
 import com.isa.ISA.model.User;
-import com.isa.ISA.model.DTO.PasswordDTO;
 import com.isa.ISA.service.AdminService;
 import com.isa.ISA.service.KorisnikService;
 

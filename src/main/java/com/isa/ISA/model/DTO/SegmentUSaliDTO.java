@@ -1,10 +1,5 @@
 package com.isa.ISA.model.DTO;
 
-import java.util.List;
-
-import javax.persistence.OneToMany;
-
-import com.isa.ISA.model.Mesto;
 import com.isa.ISA.model.TipSedista;
 
 public class SegmentUSaliDTO {

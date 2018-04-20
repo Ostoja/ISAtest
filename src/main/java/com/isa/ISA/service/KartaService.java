@@ -8,12 +8,9 @@ import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import org.springframework.transaction.annotation.Transactional;
 
 import com.isa.ISA.model.Karta;
-import com.isa.ISA.model.Projekcija;
 import com.isa.ISA.model.DTO.KartaDTO;
-import com.isa.ISA.model.DTO.ProjekcijaDTO;
 import com.isa.ISA.repository.KartaRepository;
 import com.isa.ISA.repository.MestoRepository;
 import com.isa.ISA.repository.PozoristeBioskopRepository;

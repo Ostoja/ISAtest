@@ -17,13 +17,11 @@ import org.springframework.web.bind.annotation.RestController;
 
 import com.isa.ISA.model.PozoristeBioskop;
 import com.isa.ISA.model.Projekcija;
-import com.isa.ISA.model.Sala;
 import com.isa.ISA.model.DTO.ProjekcijaDTO;
 import com.isa.ISA.repository.FilmPredstavaRepository;
 import com.isa.ISA.repository.PozoristeBioskopRepository;
 import com.isa.ISA.repository.ProjekcijaRepository;
 import com.isa.ISA.repository.SalaRepository;
-import com.isa.ISA.repository.SegmentUSaliRepository;
 import com.isa.ISA.service.ProjekcijaService;
 import com.isa.ISA.service.SegmentUSaliService;
 

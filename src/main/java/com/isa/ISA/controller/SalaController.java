@@ -13,7 +13,6 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.isa.ISA.model.PozoristeBioskop;
-import com.isa.ISA.model.Projekcija;
 import com.isa.ISA.model.Sala;
 import com.isa.ISA.model.DTO.SalaDTO;
 import com.isa.ISA.repository.PozoristeBioskopRepository;

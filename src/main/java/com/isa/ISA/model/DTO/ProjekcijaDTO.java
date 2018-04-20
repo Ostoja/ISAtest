@@ -1,14 +1,5 @@
 package com.isa.ISA.model.DTO;
 
-import java.sql.Time;
-import java.util.Date;
-
-
-import com.fasterxml.jackson.databind.annotation.JsonDeserialize;
-import com.isa.ISA.CustomerDateAndTimeDeserialize;
-
-
-
 public class ProjekcijaDTO {
 	private long id;
 	private String datum;

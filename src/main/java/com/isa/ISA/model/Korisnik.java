@@ -3,7 +3,10 @@ package com.isa.ISA.model;
 import java.util.ArrayList;
 import java.util.List;
 
-import javax.persistence.*;
+import javax.persistence.Entity;
+import javax.persistence.EnumType;
+import javax.persistence.Enumerated;
+import javax.persistence.OneToMany;
 
 @Entity
 public class Korisnik extends User {
@@ -11,7 +14,7 @@ public class Korisnik extends User {
 	@Enumerated(EnumType.STRING)
 	private RangKorisnika rangKorisnika;
 	
-	private ArrayList<Korisnik> prijatelji;
+	//private ArrayList<Korisnik> prijatelji;
 	
 	private int bodovi;
 	

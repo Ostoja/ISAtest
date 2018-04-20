@@ -5,7 +5,6 @@ import java.util.List;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import com.isa.ISA.model.Korisnik;
-import com.isa.ISA.model.User;
 
 public interface KorisnikRepository extends JpaRepository<Korisnik, Long> {
 	Korisnik findByUsername(String username);
