@@ -158,23 +158,9 @@ function logInUser(){
 	});
 	
 }
-/*
+
 function logInGuest(){
-	$.ajax({
-		url:"rest/userService/logInGuest",
-		type:"GET",
-		contentType:"applpication/json",
-		dataType:"json",
-		success:function(data){
-			if(data==true){
-				top.location.href="index.html";
-			}else{
-				toastr["error"]("Error loading this page");
-				
-			}
-		},error:function(jqxhr,textStatus,errorThrown){
-			//alert(errorThrown);
-		}
-	});
 	
-}*/
+	top.location.href="index.html";
+			
+}
