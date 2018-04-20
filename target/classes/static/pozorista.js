@@ -87,7 +87,7 @@ function karta(id){
 		type:"GET",
 		success:function(data){
 			if(data!=null){
-				window.location.replace("karte.html"); //ticket.html
+				window.location.replace("karta.html"); //ticket.html
 			}
 		},error: function(jqxhr,textStatus,errorThrown){
 			//alert('Greska');
@@ -124,7 +124,7 @@ function otvoriSale(id){
 		type:"GET",
 		success:function(data){
 			if(data!=null){
-				window.location.replace("sale.html"); //karte.html
+				window.location.replace("sala.html"); //karte.html
 			}
 		},error: function(jqxhr,textStatus,errorThrown){
 			//alert('Greska');
