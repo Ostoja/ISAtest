@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+  
+        <title> Cinema Theatre </title>
+        <script src="assets/js/jquery.min.js"></script>
+		<script src="projedit.js"></script>
+		<script src="assets/js/toastr.min.js"></script>
+		<link href="assets/js/toastr.min.css" rel="stylesheet" />
+		<style type="text/css">
+	.navbar-nav > li > a:hover{
+		background-color:#D2D5FC;
+	}
+	</style>
+		<script type="application/javascript">
+		</script>
+</head>
+<body >
+	<nav class="navbar navbar-light" style="background-color:#B7CDEF;">
+		<ul id="navigations" class="nav navbar-nav" >
+			<!--  
+			<li><a href="index.html">All subforums</a></li>
+			<li><a href="spisakKorisnika.html">All users</a></li>
+			<li><a href="preporuceneTeme.html">Recomended topics</a></li>-->
+			
+		</ul>
+		<ul id="logout" class="nav navbar-nav navbar-right">
+		</ul>
+	</nav>
+	
+	<div class="panel panel-primary">
+		<div class="panel-heading">Create new projection</div>
+		<br/>
+		<form id="noviProj">
+		
+			<div class="form-group" id="datumi">
+			<label style="font-weight:bold;margin-left:10px;">Enter date:</label><br/>
+			<input style="margin-left:10px;margin-right:5px;width:98%;" required type="date" id="datum" name="datum">
+			</div>
+			
+			<div class="form-group">
+			<label style="font-weight:bold;margin-left:10px;">Enter time:</label><br/>
+			<input style="margin-left:10px;margin-right:5px;width:98%;" required type="time" id="termin" name="termin">
+			</div>
+			
+			<div class="form-group">
+			<label style="font-weight:bold;margin-left:10px;">Enter price:</label>
+			<input style="margin-left:10px;margin-right:5px;width:98%;" required type="text" id="cena" name="cena">
+			</div>
+			
+			<div class="form-group">
+			<label style="font-weight:bold;margin-left:10px;">Select hall:</label><br/>
+			<select style="height:33px;margin-left:10px;margin-right:5px;width:60%;" required id="sala" name="sala">
+				<option></option>
+			</select>
+			</div>
+			
+			<div class="form-group">
+			<label style="font-weight:bold;margin-left:10px;">Select event:</label><br/>
+			<select style="height:33px;margin-left:10px;margin-right:5px;width:60%;" required id="filmPredstava" name="filmPredstava">
+				<option></option>
+			</select>
+			</div>
+			
+			<br/>
+			<br/>
+			<button type="button" class="btn btn-primary" onclick="dodajProjekciju()">Add a projection</button>
+			
+		</form>
+	</div>
+	
+</body>
+</html>

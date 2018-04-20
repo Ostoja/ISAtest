@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+  
+        <title>User page</title>
+        <script src="assets/js/jquery.min.js"></script>
+		<script src="profile.js"></script>
+<script src="assets/js/toastr.min.js"></script>
+		<link href="assets/js/toastr.min.css" rel="stylesheet" />
+
+		<style type="text/css">
+	.navbar-nav > li > a:hover{
+		background-color:#D2D5FC;
+	}
+	</style>
+	
+</head>
+
+<body >
+
+	<nav class="navbar navbar-light" style="background-color:#B7CDEF;">
+		<ul id="navigations" class="nav navbar-nav">
+			
+			<li><a href="index.html">Cinemas and theatres</a></li>
+			<li><a href="profileedit.html">Edit profile</a></li>
+			<li><a href="changepass.html">Change password</a></li>
+			
+		</ul>
+		<ul id="logout" class="nav navbar-nav navbar-right">
+		</ul>
+	</nav>
+	
+	<div id="divKorisnickiPodaci">
+	<h2>Podaci o korisniku </h2>
+	<br/>
+		<table class="table table-hover table-bordered">
+			
+				<tbody>
+					<tr>
+						<td><b>Username</b></td>
+						<td>username</td>
+					</tr>
+					
+					<tr>
+						<td><b>First Name</b></td>
+						<td>firstname</td>
+					</tr>
+					
+					<tr>
+						<td><b>Last name</b></td>
+						<td>lastname</td>
+					</tr>
+					
+					<tr>
+						<td><b>Role</b></td>
+						<td>role</td>
+					</tr>
+					
+					<tr>
+						<td><b>Telephone number</b></td>
+						<td>telnumber</td>
+					</tr>
+					
+					<tr>
+						<td><b>E-mail</b></td>
+						<td>email</td>
+					</tr>
+					
+					<tr>
+						<td><b>Registration date</b></td>
+						<td>regdate</td>
+					</tr>
+				</tbody>	
+	</table>
+	</div>
+	
+	<br/><br/>
+	<label style="font-size:25px;color:#174AC1;margin-left:13px;">FRIENDS</label>
+		
+	<div class="panel panel-primary" id="divPoruke">
+		<h3>MESSAGES</h3>
+		<div class="panel-heading">FROM: Pera<button type="button" class="btn btn-default">Read message</button><br/><br/></div>
+		<div class="panel-body">Sadrzaj poruke:whcwqhiquwheiu</div>
+	
+	</div>
+	<br/><br/>
+	
+	
+	<label style="margin-left:13px;font-size:25px;color:#4C8B63;">INVITES</label></div>			
+	<div class="panel panel-success" id="divGlasovi">
+	<h3><b>ACTIVITY HISTORY</b></h3>
+		<h2>List of positive/negative votes</h2>
+		<br/>
+		<p>User voted:<b><i>negative</i></b> on topic:Tema1</p>
+		<p>User voted:<b><i>positive</i></b> on topic:Tema2</p>
+		<p>User voted:<b><i>negative</i></b> on topic:Komentar1</p>
+
+	
+		<p>User started following:Podforum1</p>
+	</div>
+	<br/><br/>
+	
+	
+	<label style="margin-left:13px;font-size:25px;color:#AB7846;">VISITS AND RESERVATIONS</label>
+		<div class="panel panel-warning" id="divSnimljeniEntiteti">
+		<h3>SAVED ENTITIES</h3>
+		<p>User saved:Subforum1</p>
+		</div>
+	<br/><br/>
+	
+	
+	<label style="margin-left:13px;font-size:25px;">A PLACEHOLDER</label>
+	<div class="panel panel-active" id="divPodforumiKojeKorisnikPrati" class="list-group">
+	<h3>LIST OF FOLLOWED SUBFORUMS</h3>
+	<a href="#" class="list-group-item">Podforum1</a>
+</div>
+
+	       <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+ 
+	</body>
+	</html>
