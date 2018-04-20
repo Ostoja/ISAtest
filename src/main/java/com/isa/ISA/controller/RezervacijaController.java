@@ -1,7 +1,5 @@
 package com.isa.ISA.controller;
 
-import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.forwardedUrl;
-
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.List;
@@ -9,21 +7,16 @@ import java.util.List;
 import javax.servlet.http.HttpServletRequest;
 
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.transaction.annotation.Propagation;
-import org.springframework.transaction.annotation.Transactional;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.isa.ISA.model.Karta;
 import com.isa.ISA.model.Korisnik;
-import com.isa.ISA.model.PozoristeBioskop;
 import com.isa.ISA.model.Rezervacija;
 import com.isa.ISA.model.TipKorisnika;
 import com.isa.ISA.model.User;
-import com.isa.ISA.model.DTO.KartaDTO;
 import com.isa.ISA.model.DTO.OcenaDTO;
 import com.isa.ISA.model.DTO.RezervacijaDTO;
 import com.isa.ISA.repository.KartaRepository;
