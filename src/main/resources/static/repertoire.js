@@ -64,7 +64,7 @@ function napraviRepertoar(index,repertoar){
 	divRepertoar.append("<div class=\"panel-footer\" id=\"sala\"><label style=\"font-weight:bold;margin-right:5px;\">Time: </label>"+repertoar.termin +"</div>");
 	divRepertoar.append("<div class=\"panel-footer\" id=\"cena\"><label style=\"font-weight:bold;margin-right:5px;\">Price: </label>"+repertoar.cena +"</div>");
 	divRepertoar.append("<div class=\"panel-footer\" id=\"cena\"><label style=\"font-weight:bold;margin-right:5px;\">Hall: </label>"+repertoar.sName +"</div>");
-	divRepertoar.append("<div class=\"panel-footer\" id=\"cena\"><label style=\"font-weight:bold;margin-right:5px;\">Hall: </label>"+repertoar.brMesta +"</div>");
+	divRepertoar.append("<div class=\"panel-footer\" id=\"cena\"><label style=\"font-weight:bold;margin-right:5px;\">Available seats: </label>"+repertoar.brMesta +"</div>");
 }
 
 function obrisi(id){
