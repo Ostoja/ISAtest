@@ -8,6 +8,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 import com.isa.ISA.model.Admin;
 import com.isa.ISA.model.Korisnik;
+import com.isa.ISA.model.TipKorisnika;
 import com.isa.ISA.model.User;
 import com.isa.ISA.service.AdminService;
 import com.isa.ISA.service.KorisnikService;
@@ -44,6 +45,8 @@ public class RegisterController {
 		k.setPassword(kor.getPassword());
 		k.setEmail(kor.getEmail());
 		k.setJeAktivan(false);
+		k.setBodovi(0);
+		k.setTip(TipKorisnika.Obican);
 		k.setBrojTelefona(kor.getBrojTelefona());
 		k.setGrad(kor.getGrad());
 		k.setIme(kor.getIme());

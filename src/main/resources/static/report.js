@@ -31,7 +31,8 @@ window.onload = function(){
 			if(data==true){
 				$("#navigations").append("<li><a href = \"mainpage.html\">Admin page</a></li>");
 			}else{
-						
+				window.location.replace("index.html");		
+	
 			}
 			},error:function(jqxhr,textStatus,errorThrown){
 				//alert(errorThrown);
